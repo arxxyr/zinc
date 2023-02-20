@@ -19,7 +19,8 @@ require (
 	github.com/go-ego/gse v0.70.2
 	github.com/goccy/go-json v0.9.10
 	github.com/joho/godotenv v1.4.0
-	github.com/minio/minio-go/v7 v7.0.31
+	github.com/klauspost/cpuid v1.3.1 // indirect
+	github.com/minio/minio-go/v7 v7.0.49
 	github.com/pyroscope-io/client v0.3.0
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/rs/zerolog v1.27.0
@@ -33,9 +34,9 @@ require (
 	github.com/zsais/go-gin-prometheus v0.1.0
 	go.etcd.io/bbolt v1.3.6
 	go.etcd.io/etcd/client/v3 v3.5.4
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
-	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
-	golang.org/x/text v0.3.7
+	golang.org/x/crypto v0.6.0
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
+	golang.org/x/text v0.7.0
 
 )
 
